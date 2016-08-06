@@ -28,7 +28,7 @@ Then, open the application in your default browser.
 open http://localhost:8000/
 ```
 
-Once everything is working, augment the application's look-and-feel using the following React JSX.
+Once everything is working, augment the user interface with the following React JSX.
 
 - Anchor tags
 - Image tags
@@ -38,7 +38,7 @@ Once everything is working, augment the application's look-and-feel using the fo
 - Attribute expressions
 - Child expressions
 
-Here's an example of an augmented sports ball application.
+Here's an example of an augmented sports ball user interface.
 
 ![](https://students-gschool-production.s3.amazonaws.com/uploads/asset/file/326/95DE5AEC-7D4E-4C09-9C80-2239EF8F7C8F-570-0000DE059D556159.gif)
 
@@ -48,9 +48,9 @@ Using your preferred ESLint rules, lint your project with the `npm run lint .` c
 
 ## Bonus
 
-If you haven't already, inspect and debug your solution with the React Developer Tools. Make sure you understand the application's component hierarchy and its state.
+If you haven't already, inspect and debug your solution with the React Developer Tools. Make sure you understand the user interface's component hierarchy and its state.
 
-Then, visit [Codecademy's landing page](https://www.codecademy.com/) and, using the React Developer Tools, see what changes can you make to this application's props and state values that'll cause the browser window to render a different DOM hierarchy.
+Then, visit [Codecademy's landing page](https://www.codecademy.com/) and, using the React Developer Tools, see what changes can you make to this user interface's props and state values that'll cause the browser window to render a different DOM hierarchy.
 
 Then, log into your [Facebook](https://www.facebook.com/) account, if you have one, and see if you can figure out which component hierarchies are being reused on the timeline.
 
