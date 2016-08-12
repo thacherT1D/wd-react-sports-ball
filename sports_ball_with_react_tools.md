@@ -56,4 +56,8 @@ Then, log into your [Facebook](https://www.facebook.com/) account, if you have o
 
 Finally, [pick another React application](https://github.com/facebook/react/wiki/Sites-Using-React) and see what else you can uncover with your new x-ray vision.
 
+## Bonus
+
+Once you're satisfied, find a classmate and see if that person would like some help.
+
 #### [⇐ Previous](sports_ball_with_react.md) | [Next ⇒](README.md)

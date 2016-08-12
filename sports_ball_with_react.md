@@ -12,4 +12,8 @@ For this assignment, your task is to build a **React** user interface that cheer
 
 Refactor your user interface to handle city names of any case. In other words, treat `SEATTLE`, `seattle`, `SeAtTlE`, etc. all that same.
 
+## Bonus
+
+Once you're satisfied, find a classmate and see if that person would like some help.
+
 #### [⇐ Previous](README.md) | [Next ⇒](sports_ball_with_react_tools.md)
