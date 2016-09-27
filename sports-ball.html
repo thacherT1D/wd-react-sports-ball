@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="https://npmcdn.com/react@15.3.1/dist/react.js"></script>
+    <script src="https://npmcdn.com/react-dom@15.3.1/dist/react-dom.js"></script>
+    <script>
+      const App = React.createClass({
+        getInitialState: function() {
+          return { city: '' };
+        },
+        handleChange: function(event) {
+          const nextCity = event.target.value;
+          this.setState({ city: nextCity});
+        },
+        render: function() {
+          let message;
+          if(this.state.city.trim() === '') {
+            message = 'Go Ahead, type in a city.'
+          }
+          else if(this.state.city.toLowerCase() == 'seattle') {
+            message = 'Go Sounders!'
+          }
+          else if(this.state.city.toLowerCase() == 'portland') {
+            message = 'Go Trail Blazers!'
+          }
+          else {
+            message = `${this.state.city}? Never heard of it.`
+          }
+          return React.createElement('div', null,
+            React.createElement('h1', null, "What's Your favorite city?"),
+            React.createElement('input', {
+              onChange: this.handleChange,
+              type: 'text',
+              value: this.state.city
+            }),
+            React.createElement('h4', null, message)
+          );
+        }
+      });
+
+      ReactDOM.render(
+        React.createElement(App),
+        document.getElementById('app')
+      );
+    </script>
+  </body>
+</html>
