@@ -16,7 +16,7 @@ const App = React.createClass({
 
     let message;
 
-    if (city === 'seattle') {
+    if(city === 'seattle') {
       message = <ul className="no-bullets">
         <li className="no-bullets" style={{ margin: '10px' }}>
           <a href="http://www.soundersfc.com/">Go Sounders!</a>
@@ -29,7 +29,7 @@ const App = React.createClass({
         </li>
       </ul>;
     }
-    else if (city === 'portland') {
+    else if(city === 'portland') {
       message = <ul className="no-bullets">
         <li style={{ margin: '10px' }}>
           <a href="http://www.soundersfc.com/">Go Sounders!</a>
@@ -42,7 +42,7 @@ const App = React.createClass({
         </li>
       </ul>;
     }
-    else if (city === '') {
+    else if(city === '') {
       message = <p>Go Ahead, type in a city.</p>;
     }
     else {
@@ -51,7 +51,7 @@ const App = React.createClass({
 
     return <div>
       <h1>
-        {"Favorite City?"}
+        {'Favorite City?'}
       </h1>
       <input
         onChange={this.handleChange}
