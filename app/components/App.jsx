@@ -32,7 +32,7 @@ const App = React.createClass({
     else if(city === 'portland') {
       message = <ul className="no-bullets">
         <li style={{ margin: '10px' }}>
-          <a href="http://www.soundersfc.com/">Go Sounders!</a>
+          <a href="http://www.Timberwolvesfc.com/">Go Timberwolves!</a>
         </li>
         <li style={{ margin: '10px' }}>
           <img
